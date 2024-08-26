@@ -14,23 +14,23 @@ while vr == "1":
         numero1 = int(input("digite um numero: "))
         numero2 = int(input("digite outro numero: "))
         print(f"o resultado é {numero1 + numero2}")
-    elif operaçao == '2':
+    elif operaçao == "2":
         numero1 = int(input("digite um numero: "))
         numero2 = int(input("digite outro numero: "))
         print(f"o resultado é {numero1 - numero2}")
-    elif operaçao == 3:
+    elif operaçao == "3":
         numero1 = int(input("digite um numero: "))
         numero2 = int(input("digite outro numero: "))
         print(f"o resultado é {numero1 / numero2}")
-    elif operaçao == 4:
+    elif operaçao == "4":
         numero1 = int(input("digite um numero: "))
         numero = int(input("digite outro numero: "))
         print(f"o resultado é {numero1 * numero2}")
-    elif operaçao == 5:
+    elif operaçao == "5":
         numero1 = int(input("digite um numero: "))
         print(f"o resultado é {numero1 * numero1}")
-    elif operaçao == 6:
-        vr = 0
+    elif operaçao == "6":
+        vr = "0"
     else:
         print('tente novamente')
     print()
